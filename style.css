@@ -1,0 +1,56 @@
+* {
+  background-color: rgb(255, 98, 0);
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.head {
+  color: darkblue;
+}
+
+#bglime {
+  background-color: #32cd32;
+}
+
+h2 > span {
+  color: red;
+  background-color: #32cd32;
+}
+
+/* css for paragraphs*/
+p {
+  color: white;
+  font-size: 20px;
+}
+section p:nth-of-type(2) {
+  color: green;
+  font-size: 15px;
+}
+p > span {
+  color: black;
+  font-size: 25px;
+}
+
+/* css for ordered-unordered lists*/
+
+ul > li {
+  color: white;
+}
+
+ul li:nth-of-type(1) mark {
+  background-color: yellow;
+  text-decoration: underline;
+  color: green;
+}
+ul li:nth-of-type(2) mark {
+  background-color: blue;
+  text-decoration: underline;
+}
+ol li:nth-child(2) {
+  color: blue;
+}
+ol li:nth-child(3) {
+  color: red;
+}
