@@ -1,0 +1,2 @@
+# task_2_CSS_selectors
+selectors_functionality
